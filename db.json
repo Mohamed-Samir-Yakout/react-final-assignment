@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Mohamed Samir",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 2,
+      "name": "Ahmed Magdy",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 3,
+      "name": "Amir Salah",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 4,
+      "name": "Maha Mohamed",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 5,
+      "name": "Dina Naser",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 6,
+      "name": "Mona Ahmed",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 7,
+      "name": "Sherif Barakat",
+      "age": 25,
+      "phone": 12345678945
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ]
+}
