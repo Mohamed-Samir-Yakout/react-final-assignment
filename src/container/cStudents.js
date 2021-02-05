@@ -36,11 +36,11 @@ class students extends Component {
    
     
     render(){
-        console.log(this.props.history)
+        console.log(this.props.history.history)
         return (
           <div className="p-3">
               <Navbar color="dark" className="justify-content-between" light expand="md">
-                  <NavbarBrand  className="text-white">Home</NavbarBrand>
+                  <NavbarBrand href='/'  className="text-white">Home</NavbarBrand>
         
        
                  <NavbarText className="text-white"><Button color="primary" className="btn btn-primary"
@@ -60,10 +60,10 @@ class students extends Component {
 
                <div className="row">
                
-               <div className="col-5">
+               <div className="col">
                    {this.renderStudent(this.props)}
                </div>
-               <img src='download.jpg' className='col-6 img'></img> 
+               {/* <img src='download.jpg' className='col-6 img'></img>  */}
                    
                </div>
 
@@ -125,7 +125,7 @@ class students extends Component {
                        <div key={student.id} className=" justify-content-center border-bottom alert alert-danger p-2 ">
                            {/* <h3>{student.name}</h3>
                           <Button color="success" className="btn btn-success">Details</Button>  */}
-                          <Student key={student.id} stdentInfo={student} history={this.props.history}/>
+                          <Student key={student.id} stdentInfo={student} history={this.props.history.history}/>
                         </div>
                     
                 )

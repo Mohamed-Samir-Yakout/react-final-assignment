@@ -47,3 +47,10 @@ export const addNewStudent = async (student)=>{
         payLoad
     }
 }
+
+export const clearStudentDetails = ()=>{
+    return {
+        type:'CLEAR_Student_DETAILS',
+        payload:null
+    }
+}
